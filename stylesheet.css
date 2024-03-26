@@ -32,6 +32,7 @@ body {
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+
 }
 
 header {
@@ -90,6 +91,7 @@ li {
     font-size: 18px;
     color: #ffffff;
     background-color: #3882f6;
+    border-radius: 15%;
 }
 
 .img-small {
@@ -178,11 +180,15 @@ border-radius: 13%;
     border-style: solid;
     height: fit-content;
 }
-
+#placeholdertext{
+    text-align: center;
+    margin: 50px
+}
 #placeholder{
     background-color: gray;
     color: #E5E7EB;
     width:40%;
+    align-items: center;
 }
 p{
     text-align: center;
